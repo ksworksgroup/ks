@@ -229,11 +229,11 @@ button {
 /* header top section start */
 
 .header_top_section {
-    width: 100%;
+    width: 158%;
     display: flex;
-    background-color: #07092f;
+    background-color: #ffffff;
     height: auto;
-    padding: 20px 0px;
+    padding: 1px 0px;
 }
 
 .header_top_main {
