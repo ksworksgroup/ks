@@ -1,322 +1,475 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>Projects</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <!-- fonts -->
-      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;800&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
-   </head>
-   <body>
-      <!-- header top section start -->
-      <!--<div class="header_top_section">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12">
-                  <div class="header_top_main">
-                     <div class="call_text_2"><a aria-hidden="true"></i>KS Work’s 合同会社</a></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div> -->
-      <!-- header top section start -->
-      <!-- header section start -->
-      <div class="header_section header_bg">
-         <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ml-auto">
-                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">ホーム</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">会社概要</a>
-                     </li>
-                     <li class="nav-item active">
-                        <a class="nav-link" href="projects.html">採用情報</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">お問い合わせ</a>
-                     </li>
-                  </ul>
-               
-               </div>
-            </nav>
-         </div>
-      </div>
-      <!-- header section end -->
-      <!-- projects section start -->
-      <div class="projects_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <h1 class="projects_taital">採用情報</h1>
-                  <div class="nav-tabs-navigation">
-                     <div class="nav-tabs-wrapper">
-                        <ul class="nav " data-tabs="tabs">
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="projects_section_2 layout_padding">
-            <div class="container">
-               <div class="pets_section">
-                  <div class="pets_section_2">
-                     <div id="main_slider" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                           <div class="carousel-item active">
-                              <div class="row">
-                                 <div class="col-md-4">
-                                    <div class="container_main">
-                                       <img src="images/img-1.png" alt="" class="image">
-                                       <div class="overlay">
-                                          <div class="text">
-                                             <h4 class="some_text"><i class="" aria-hidden="true"></i></h4>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="project_main">
-                                       <h2 class="work_text">プラント</h2>
-                                       <p class="dummy_text">発電所や工場などの「プラント」と呼ばれる大型施設を、計画から設計、建設、試運転、メンテナンス、そして操業まで、一連のプロセスに関わる幅広い分野を指します。</p>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-4">
-                                    <div class="container_main">
-                                       <img src="images/img-2.png" alt="" class="image">
-                                       <div class="overlay">
-                                          <div class="text">
-                                             <h4 class="some_text"><i class=" " aria-hidden="true"></i></h4>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="project_main">
-                                       <h2 class="work_text">橋梁工事</h2> <!--ponte-->
-                                       <p class="dummy_text">橋梁の構造部材の溶接、組み立て、補修などです。具体的には、図面に基づいて鋼材を溶接で接合し、橋梁の骨組みを構築したり、老朽化した部分を補修です</p>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-4">
-                                    <div class="container_main">
-                                       <img src="images/img-3.png" alt="" class="image">
-                                       <div class="overlay">
-                                          <div class="text">
-                                             <h4 class="some_text"><i class=" " aria-hidden="true"></i></h4>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="project_main">
-                                       <h2 class="work_text">鉄骨</h2>
-                                        <p class="dummy_text">建物の骨組みとなる鉄骨を加工・組み立てる工事です。具体的には、設計図に基づいて鉄骨を製作し、現場で組み立て、溶接やボルト締めなどで接合します。高層ビルやマンションなど、様々な建物の建設に不可欠な仕事です</p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="carousel-item">
-                              <div class="row">
-                                 <div class="col-md-4">
-                                    <div class="container_main">
-                                       <img src="images/img-1.png" alt="" class="image">
-                                       <div class="overlay">
-                                          <div class="text">
-                                             <h4 class="some_text"><i class=" " aria-hidden="true"></i></h4>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="project_main">
-                                       <h2 class="work_text">橋梁工事</h2>
-                                       <p class="dummy_text">橋梁の構造部材の溶接、組み立て、補修などです。具体的には、図面に基づいて鋼材を溶接で接合し、橋梁の骨組みを構築したり、老朽化した部分を補修です </p>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-4">
-                                    <div class="container_main">
-                                       <img src="images/img-2.png" alt="" class="image">
-                                       <div class="overlay">
-                                          <div class="text">
-                                             <h4 class="some_text"><i class=" " aria-hidden="true"></i></h4>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="project_main">
-                                       <h2 class="work_text">Demoliçao/Doboku</h2>
-                                       <p class="dummy_text">Aqui seria muito interessante incluir nessa etapa as oportunidades e os trabalhos dos quais a empresa consegue realizar</p>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-4">
-                                    <div class="container_main">
-                                       <img src="images/img-3.png" alt="" class="image">
-                                       <div class="overlay">
-                                          <div class="text">
-                                             <h4 class="some_text"><i class=" " aria-hidden="true"></i></h4>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="project_main">
-                                       <h2 class="work_text">Painel Solar</h2>
-                                       <p class="dummy_text">Aqui vai mais uma área que pode ser inserida também tendo em vista a demanda por oportunidades e lacunas a serem preenchidas</p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="carousel-item">
-                              <div class="row">
-                                 <div class="col-md-4">
-                                    <div class="container_main">
-                                       <img src="images/img-1.png" alt="" class="image">
-                                       <div class="overlay">
-                                          <div class="text">
-                                             <h4 class="some_text"><i class=" " aria-hidden="true"></i></h4>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="project_main">
-                                       <h2 class="work_text">Montagem de Estruturas</h2>
-                                       <p class="dummy_text">uma breve descrição sobre os serviços oferecidos em estruturas metalicas e montagem de edificios</p>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-4">
-                                    <div class="container_main">
-                                       <img src="images/img-2.png" alt="" class="image">
-                                       <div class="overlay">
-                                          <div class="text">
-                                             <h4 class="some_text"><i class=" " aria-hidden="true"></i></h4>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="project_main">
-                                       <h2 class="work_text">Serviços Gerais</h2>
-                                       <p class="dummy_text">Aqui vai tambem serviços de limpezas, temoto, ajudante de obras e etc.</p>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-4">
-                                    <div class="container_main">
-                                       <img src="images/img-3.png" alt="" class="image">
-                                       <div class="overlay">
-                                          <div class="text">
-                                             <h4 class="some_text"><i class=" " aria-hidden="true"></i></h4>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="project_main">
-                                       <h2 class="work_text">Pintura</h2>
-                                       <p class="dummy_text">Serviços de Pintura também é uma área ótima do setor que abrange uma alta gama de trabalhodores</p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- projects section end -->
-      <!-- footer section start -->
-      <div class="footer_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="location_text">
-                     <ul>
-                        <li>
-                           <a href="https://wa.me/+817041321122"><span class="padding_15"><i class="fa fa-mobile" aria-hidden="true"></i></span> <br>WhatsApp</a>
-                        </li>
-                        <li class="">
-                           <a href="mailto:kusanosamyo@ksworksgroup.jp"><span class="padding_15"><i class="fa fa-envelope" aria-hidden="true"></i></span> <br>E-mail</a>
-                        </li>
-                        <li>
-                           <a href="#"><span class="padding_15"><i class="fa fa-map-marker" aria-hidden="true"></i></span> <br>Kanagawa-Japão</a>
-                        </li> 
-                     </ul>
-                  </div>
-               </div>
-            </div>
-            <div class="footer_section_2">
-               <div class="row">
-                  <div class="col-md-4">
-                     <h2 class="useful_text"></h2>
-                     <div class="footer_menu">
-                          <ul>
-                           <li><a href="index.html"></a></li>
-                           <li><a href="about.html"></a></li>
-                           <li><a href="projects.html"></a></li>
-                           <li><a href="contact.html"></a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <!--<div class="col-md-4">
-                     <h2 class="useful_text">お問い合わせ</h2>
-                     <div class="location_text"> 
-                     <ul>
-                        <li><a href="https://www.facebook.com/share/19iZr2ft7Q/?mibextid=wwXIfr">Facebook</a></li>
-                        <li><a href="https://www.instagram.com/ksworksgroup?igsh=NGlmNHJyanA0MzN3&utm_source=qr">Instagram</a></li>
-                        <li><a href="https://line.me/ti/p/4SqWEO1kP6">Line</a></li>
-                        <li><a href="https://wa.me/+817041321122">Whatsapp</a></li>
-                     </ul>
-                     </div> -->
-                  </div>
-               </div>
-            </div>
-            <div class="social_icon">
-                      <ul>
-                 <li>
-                     <a href="https://www.facebook.com/share/19iZr2ft7Q/?mibextid=wwXIfr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                  </li>
-                  <li>
-                     <a href="https://www.instagram.com/ksworksgroup?igsh=NGlmNHJyanA0MzN3&utm_source=qr"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                     </li>
-                  <li>
-                     <a href="https://line.me/ti/p/4SqWEO1kP6"><i class="fa fa-line" aria-hidden="true"></i></a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </div>
-      <!-- footer section end -->
-      <!-- copyright section start -->
-      <div class="copyright_section">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12">
-                  <p class="copyright_text">2025 All Todos os direitos reservados. Design by <a href="https://html.design" rel="nofollow">Ks WORKS</a> Distribution by <a href="https://google.com">KS Works</a></p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- copyright section end -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
-   </body>
-</html>
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-search {
+        padding: 15px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .mg {
+        margin: 0px 0px;
+    }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
+    }
+    .category-box.women-box {
+        display: none;
+    }
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+    .wish-box {
+        float: none;
+        margin: 0px 30px;
+        display: inline-block;
+    }
+    .menu-add {
+        display: none;
+    }
+    .category-box {
+        display: none;
+    }
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
+    }
+    .mean-container .mean-nav ul li li li a {
+        width: 100%;
+    }
+    .header-search {
+        padding: 15px 0px;
+    }
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+    }
+    .mean-container .sub-full.megamenu-categories ol li a {
+        padding: 5px 0px;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+    }
+    .menu-area-main {
+        height: 45px;
+        overflow-y: auto;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .ml-auto,
+    .mx-auto {
+        margin: 0 auto;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 14px;
+    }
+    .login_text li {
+        font-size: 14px;
+        padding: 0px 10px;
+    }
+    .quote_btn {
+        width: 140px;
+    }
+    .quote_btn a {
+        font-size: 14px;
+    }
+    #my_slider a.carousel-control-prev {
+        left: inherit;
+        top: 180px;
+        right: 30px;
+    }
+    #my_slider a.carousel-control-next {
+        right: 30px;
+        top: 120px;
+        left: initial;
+    }
+    .services_section_2 {
+        width: 98%;
+    }
+    .development_text {
+        font-size: 20px;
+    }
+    .service_img img {
+        min-height: 30px;
+    }
+    .about_taital {
+        padding-top: 40px;
+    }
+    #costum_slider a.carousel-control-next {
+        right: -60px;
+        left: 0px;
+        top: 550px;
+    }
+    #costum_slider a.carousel-control-prev {
+        left: -60px;
+        right: 0px;
+        top: 550px;
+    }
+    .mail_section_1 {
+        padding-left: 15px;
+        padding-top: 0px;
+    }
+    .location_text li {
+        padding: 0px 90px 30px 90px;
+    }
+    .useful_text {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #my_slider a.carousel-control-prev {
+        left: 30px;
+        top: 180px;
+        right: 0px;
+        display: none;
+    }
+    #my_slider a.carousel-control-next {
+        right: 0px;
+        top: 120px;
+        left: 30px;
+        display: none;
+    }
+    .header_top_section {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+        margin-top: 0px;
+    }
+    .navbar-toggler {
+        background-color: #fff;
+    }
+    .header_section {
+        background-size: cover;
+    }
+    .logo {
+        width: auto;
+    }
+    .banner_taital_main {
+        width: 80%;
+    }
+    .banner_taital {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .about_text {
+        font-size: 14px;
+        margin: 0px;
+    }
+    .about_taital {
+        padding-top: 0px;
+    }
+    .video_bt {
+        width: 100%;
+        padding: 120px 0px;
+    }
+    .projects_section ul .nav-link {
+        padding: 12px 9px;
+        margin: 0px 5px;
+        width: auto;
+    }
+    .image {
+        min-height: auto;
+        margin-top: 30px;
+    }
+    .testimonial_section_2 {
+        width: 100%;
+        padding-top: 30px;
+    }
+    #costum_slider a.carousel-control-next {
+        top: 560px;
+    }
+    #costum_slider a.carousel-control-prev {
+        top: 560px;
+    }
+    .textimonial_text {
+        padding: 40px 20px;
+    }
+    .testimonial_section {
+        padding: 90px 0px 150px 0px;
+    }
+    .contact_taital {
+        padding-left: 0px;
+    }
+    .mail_section_1 {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .contact_img {
+        margin-top: 30px;
+    }
+    .location_text li {
+        padding: 0px 50px 30px 50px;
+    }
+    .useful_text {
+        font-size: 14px;
+    }
+    .lorem_text {
+        font-size: 14px;
+    }
+    .footer_menu {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #my_slider a.carousel-control-prev {
+        left: 30px;
+        top: 180px;
+        right: 0px;
+        display: none;
+    }
+    #my_slider a.carousel-control-next {
+        right: 0px;
+        top: 120px;
+        left: 30px;
+        display: none;
+    }
+    .header_top_section {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+        margin-top: 0px;
+    }
+    .navbar-toggler {
+        background-color: #fff;
+    }
+    .header_section {
+        background-size: cover;
+    }
+    .logo {
+        width: auto;
+    }
+    .banner_taital_main {
+        width: 100%;
+    }
+    .banner_taital {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .about_text {
+        font-size: 14px;
+    }
+    .about_taital {
+        padding-top: 0px;
+    }
+    .video_bt {
+        width: 100%;
+        padding: 60px 0px;
+    }
+    .about_img {
+        margin-top: 30px;
+        
+    }
+    .ima {
+        margin-top: 30px;
+        
+    }
+    .projects_section ul .nav-link {
+        padding: 12px 5px;
+    }
+    .image {
+        min-height: auto;
+        margin-top: 30px;
+    }
+    .testimonial_section_2 {
+        width: 100%;
+        padding-top: 30px;
+    }
+    #costum_slider a.carousel-control-next {
+        display: none;
+    }
+    #costum_slider a.carousel-control-prev {
+        display: none;
+    }
+    .textimonial_text {
+        padding: 40px 20px;
+    }
+    .testimonial_section {
+        padding: 90px 0px 90px 0px;
+    }
+    .contact_taital {
+        padding-left: 0px;
+    }
+    .mail_section_1 {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .contact_img {
+        margin-top: 30px;
+    }
+    .location_text li {
+        float: none;
+        padding: 0px 20px 30px 20px;
+    }
+    .useful_text {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    #my_slider a.carousel-control-prev {
+        left: 30px;
+        top: 180px;
+        right: 0px;
+        display: none;
+    }
+    #my_slider a.carousel-control-next {
+        right: 0px;
+        top: 120px;
+        left: 30px;
+        display: none;
+    }
+    .header_top_section {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+        margin-top: 0px;
+    }
+    .navbar-toggler {
+        background-color: #fff;
+    }
+    .header_section {
+        background-size: cover;
+    }
+    .logo {
+        width: auto;
+    }
+    .banner_taital_main {
+        width: 100%;
+    }
+    .banner_taital {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .about_text {
+        font-size: 14px;
+    }
+    .about_taital {
+        padding-top: 0px;
+    }
+    .video_bt {
+        width: 100%;
+        padding: 60px 0px;
+    
+    }
+    .projects_section ul .nav-link {
+        padding: 12px 5px;
+    }
+    .image {
+        min-height: auto;
+        margin-top: 30px;
+    }
+    .testimonial_section_2 {
+        width: 100%;
+        padding-top: 30px;
+    }
+    #costum_slider a.carousel-control-next {
+        display: none;
+    }
+    #costum_slider a.carousel-control-prev {
+        display: none;
+    }
+    .textimonial_text {
+        padding: 40px 20px;
+    }
+    .testimonial_section {
+        padding: 90px 0px 90px 0px;
+    }
+    .contact_taital {
+        padding-left: 0px;
+    }
+    .mail_section_1 {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .contact_img {
+        margin-top: 30px;
+    }
+    .location_text li {
+        float: none;
+        padding: 0px 20px 30px 20px;
+    }
+    .useful_text {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+}
