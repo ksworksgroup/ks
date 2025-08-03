@@ -540,13 +540,41 @@ button {
 }
 .plant {
     width: 200%;
-    padding: 300%;
+ padding: 150%;
     float: left;
     background-image: url(../images/plant.jpg);
     height: auto;
     background-size: cover;
+    padding: 1150px 0px 0px 0px;
+}
+.yousetsu {
+    width: 200%;
+    padding: 800%;
+    float: left;
+    background-image: url(../images/yousetsu.jpg);
+    height: auto;
+    background-size: cover;
     padding: 1350px 0px 0px 0px;
 }
+.tekotsu {
+    width: 200%;
+    padding: 800%;
+    float: left;
+    background-image: url(../images/tekotsu.jpg);
+    height: auto;
+    background-size: cover;
+    padding: 1350px 0px 0px 0px;
+}
+.ponte {
+    width: 200%;
+    padding: 300%;
+    float: left;
+    background-image: url(../images/ponte.jpg);
+    height: auto;
+    background-size: cover;
+    padding: 2000px 0px 0px 0px;
+}
+
 .ima {
     width: 30%;
     float: left;
@@ -1311,4 +1339,3 @@ textarea#comment.massage-bt::placeholder {
 .margin_top90 {
     margin-top: 90px;
 }
-
