@@ -559,7 +559,7 @@ button {
 
 .video_bt {
     width: 100%;
-    padding: 300px 0px;
+    padding: 400px 0px;
 }
 
 
@@ -1311,3 +1311,4 @@ textarea#comment.massage-bt::placeholder {
 .margin_top90 {
     margin-top: 90px;
 }
+
