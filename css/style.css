@@ -509,7 +509,7 @@ button {
 .about_section {
     width: 100%;
     float: left;
-    padding: 90px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
 }
 
 .about_taital {
@@ -540,20 +540,12 @@ button {
 }
 .plant {
     width: 200%;
+    padding: 300%;
     float: left;
     background-image: url(../images/plant.jpg);
     height: auto;
     background-size: cover;
-    padding: 0px 0px 0px 0px;
-}
-.plant1 {
-    width: 200%;
-    float: left;
-    background-image: url(../images/plant1.jpg);
-    height: auto;
-    background-size: cover;
-    padding: 0px 0px 0px 0px;
-
+    padding: 1350px 0px 0px 0px;
 }
 .ima {
     width: 30%;
@@ -1108,7 +1100,7 @@ textarea#comment.massage-bt::placeholder {
     float: left;
     background-color: #140661;
     height: auto;
-    padding-bottom: 50px;
+    padding-bottom: 50
 }
 
 .footer_section_2 {
