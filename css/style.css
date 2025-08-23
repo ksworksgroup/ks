@@ -530,7 +530,7 @@ button {
 }
 
 .about_img {
-    width: 100%;
+    width: 150%;
     float: left;
     background-image: url(../images/dados.jpg);
     height: auto;
@@ -1339,3 +1339,4 @@ textarea#comment.massage-bt::placeholder {
 .margin_top90 {
     margin-top: 90px;
 }
+
