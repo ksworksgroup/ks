@@ -586,7 +586,7 @@ button {
     background-image: url(../images/ponte.jpg);
     background-size: 650px;
     height: auto;
-    padding: 1400px 0px 0px 0px;
+    padding: 1500px 0px 0px 0px;
      margin-left: 215px;
 }
 
@@ -1405,3 +1405,4 @@ textarea#comment.massage-bt::placeholder {
 .margin_top90 {
     margin-top: 90px;
 }
+
