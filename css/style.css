@@ -541,7 +541,7 @@ button {
 
 }
 .ksfoto_img {
-    width: 39%;
+    width: 37%;
     float: left;
     background-image: url(../images/ksfoto.png);
     background-size: 300px;
@@ -1405,6 +1405,7 @@ textarea#comment.massage-bt::placeholder {
 .margin_top90 {
     margin-top: 90px;
 }
+
 
 
 
