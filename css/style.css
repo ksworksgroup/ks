@@ -554,36 +554,40 @@ button {
  padding: 150%;
     float: left;
     background-image: url(../images/plant.jpg);
+    background-size: 300px;
     height: auto;
     background-size: cover;
-    padding: 1150px 0px 0px 0px;
+    padding: 2050px 0px 0px 0px;
 }
 .yousetsu {
-    width: 200%;
+    width: 95%;
     padding: 800%;
     float: left;
     background-image: url(../images/yousetsu.jpg);
+     background-size: 500px;
     height: auto;
-    background-size: cover;
-    padding: 1350px 0px 0px 0px;
+    padding: 450px 0px 0px 0px;
+    margin-left: 255px;
 }
 .tekotsu {
-    width: 200%;
-    padding: 800%;
+    width: 95%;
+    padding: 300%;
     float: left;
     background-image: url(../images/tekotsu.jpg);
+     background-size: 500px;
     height: auto;
-    background-size: cover;
-    padding: 1350px 0px 0px 0px;
+    padding: 515px 0px 0px 0px;
+    margin-left: 255px;
 }
 .ponte {
-    width: 200%;
+    width: 120%;
     padding: 300%;
     float: left;
     background-image: url(../images/ponte.jpg);
+    background-size: 650px;
     height: auto;
-    background-size: cover;
-    padding: 2000px 0px 0px 0px;
+    padding: 1400px 0px 0px 0px;
+     margin-left: 215px;
 }
 
 .ima {
@@ -598,7 +602,7 @@ button {
 .email {  
     width: 170%;
     float: left;
-    margin-top: -1751px;
+    margin-top: -1750px;
     padding: 410px 0px 0px 0px;
     margin-left: 700px;
 }
@@ -1401,5 +1405,3 @@ textarea#comment.massage-bt::placeholder {
 .margin_top90 {
     margin-top: 90px;
 }
-
-
