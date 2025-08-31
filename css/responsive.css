@@ -234,10 +234,7 @@
     .about_taital {
         padding-top: 0px;
     }
-    .video_bt {
-        width: 100%;
-        padding: 120px 0px;
-    }
+
     .projects_section ul .nav-link {
         padding: 12px 9px;
         margin: 0px 5px;
@@ -329,12 +326,19 @@
     .about_taital {
         padding-top: 0px;
     }
-    .video_bt {
-        width: 100%;
-        padding: 60px 0px;
+    .equipe {
+     margin-top: 30px;
     }
     .about_img {
         margin-top: 30px;
+          }
+    .ksfoto_img {
+        margin-top: 30px;
+        
+    }
+    .ima {
+        margin-top: 30px;
+        
     }
     .projects_section ul .nav-link {
         padding: 12px 5px;
@@ -421,13 +425,7 @@
     .about_taital {
         padding-top: 0px;
     }
-    .video_bt {
-        width: 100%;
-        padding: 60px 0px;
-    }
-    .about_img {
-        margin-top: 30px;
-    }
+
     .projects_section ul .nav-link {
         padding: 12px 5px;
     }
