@@ -550,14 +550,14 @@ button {
 
 }
 .plant {
-    width: 200%;
+    width: 190%;
  padding: 150%;
     float: left;
     background-image: url(../images/plant.jpg);
-    background-size: 300px;
+    background-size: 999px;
     height: auto;
-    background-size: cover;
-    padding: 2050px 0px 0px 0px;
+    padding: 1800px 0px 0px 0px;
+    margin-left: 25px;
 }
 .yousetsu {
     width: 95%;
